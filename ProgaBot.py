@@ -18,7 +18,7 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 TOKEN = os.getenv("BOT_TOKEN") 
 
 # Ссылка на сервис, который возвращает JSON с расписанием
-SCHEDULE_URL = "http://127.0.0.1:8000/api/schedule/10903723"
+SCHEDULE_URL = "https://gist.githubusercontent.com/galabyrda127-blip/acf6e4249be8146eb39e5b4f9787767d/raw/4c9c527871eccc74a3ae17dee9f9193786904e46/schedule.json"
 
 # Часовой пояс
 TIMEZONE = "Europe/Minsk"
