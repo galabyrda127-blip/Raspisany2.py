@@ -102,7 +102,8 @@ async def get_schedule_from_server():
                 response.raise_for_status()
 
                 # Получаем JSON
-                data = await response.json()
+                data = await response.json(content_type=None
+                )
 
                 print("JSON успешно получен.")
 
